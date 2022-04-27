@@ -19,15 +19,15 @@ A few observations can be made based on the information and histograms for numer
 * Employee Number is likely to be a unique identifier for employees given the feature's quasi-uniform distribution.
 
 ### Marital Status:
-<div align=center><img width='700' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Marital%20Status.png'></div>
+<div align=center><img width='700' height='500' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Marital%20Status.png'></div>
 The dataset features three marital status: Married (673 employees), Single (470 employees), Divorced (327 employees).
 Single employees show the largest proportion of leavers at 25%.
 
 ### Overtime:
-<div align=center><img width='700' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Overtime.png'></div>
+<div align=center><img width='700' height='500' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Overtime.png'></div>
 Some employees have overtime commitments. According to the chart, people who have to work overtime show higher proportion of leavers compared to their counterparts.
 
 ### Business Travel:
-<div align=center><img width='800' height='600' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Business%20Travel.png'></div>
+<div align=center><img width='700' height='500' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Business%20Travel.png'></div>
 A preliminary look at the relationship between Business Travel frequency and Attrition Status shows that there is a largest normalized proportion of Leavers for employees that travel "frequently". Travel metrics associated with Business Travel status were not disclosed (i.e. how many hours of Travel is considered "Frequent").
 
