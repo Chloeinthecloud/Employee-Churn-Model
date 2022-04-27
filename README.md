@@ -9,3 +9,4 @@ In this project, I will attempt to solve the following problems:
 
 ## Data Description
 In this project, a HR dataset was sourced from IBM HR Analytics Employee Attrition & Performance which contains employee data for 1,470 employees with various information about the employees. I will use this dataset to predict when employees are going to quit by understanding the main drivers of employee churn.
+<div align=center><img width='700' height='500' src = ''></div>
