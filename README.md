@@ -17,3 +17,6 @@ A few observations can be made based on the information and histograms for numer
 * Age distribution is a slightly right-skewed normal distribution with the bulk of the staff between 25 and 45 years old.
 * EmployeeCount and StandardHours are constant values for all employees. They're likely to be redundant features.
 * Employee Number is likely to be a unique identifier for employees given the feature's quasi-uniform distribution.
+
+
+
