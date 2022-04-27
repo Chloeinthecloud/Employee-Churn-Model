@@ -18,17 +18,6 @@ A few observations can be made based on the information and histograms for numer
 * EmployeeCount and StandardHours are constant values for all employees. They're likely to be redundant features.
 * Employee Number is likely to be a unique identifier for employees given the feature's quasi-uniform distribution.
 
-## Data Description
-In this project, a HR dataset was sourced from IBM HR Analytics Employee Attrition & Performance which contains employee data for 1,470 employees with various information about the employees. I will use this dataset to predict when employees are going to quit by understanding the main drivers of employee churn.
-<div align=center><img width='800' height='600' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/histogram.png'></div>
-A few observations can be made based on the information and histograms for numerical features:
-
-* Many histograms are tail-heavy; indeed several distributions are right-skewed (e.g. MonthlyIncome DistanceFromHome, YearsAtCompany). 
-* Data transformation methods may be required to approach a normal distribution prior to fitting a model to the data.
-* Age distribution is a slightly right-skewed normal distribution with the bulk of the staff between 25 and 45 years old.
-* EmployeeCount and StandardHours are constant values for all employees. They're likely to be redundant features.
-* Employee Number is likely to be a unique identifier for employees given the feature's quasi-uniform distribution.
-
 ### Marital Status:
 <div align=center><img width='700' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Marital%20Status.png'></div>
 The dataset features three marital status: Married (673 employees), Single (470 employees), Divorced (327 employees).
