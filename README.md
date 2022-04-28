@@ -36,11 +36,11 @@ A preliminary look at the relationship between Business Travel frequency and Att
 There is a feature for the number of companies the employee has worked at. 0 likely indicates that according to records, the employee has only worked at this company.
 Employees that have already worked at several companies previously (already "bounced" between workplaces) show higher proportion of leavers compared to their counterparts.
 
-### Job Role
+### Job Role:
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Job%20Role.png'></div>
 Employee who work as Sales Representatives show a significant percentage of Leavers in the submitted dataset.
 
-### Pay/Salary & Job Involvement Information
+### Pay/Salary & Job Involvement Information:
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Monthly%20Income.png'></div>
 Employee Monthly Income varies from $1009 to $19999.
 
@@ -50,7 +50,11 @@ Percentage Salary Hikes varies from 11% to 25%.
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Job%20Involvement.png'></div>
 Loyal employees with higher salaries and more responsbilities show lower proportion of leavers compared to their counterparts.
 
-### Years at company
+### Years at company:
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Years%20At%20Company.png'></div>
 Number of Years at the company varies from 0 to 40 years.
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Years%20in%20Current%20Role.png'></div>
+Number of Years in the current role varies from 0 to 18 years. About 10% of leavers left when they reach their 2-year anniversary at the company.
+
+### Target Variable: Attrition
 
