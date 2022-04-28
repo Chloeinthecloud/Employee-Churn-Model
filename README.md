@@ -40,10 +40,12 @@ Employees that have already worked at several companies previously (already "bou
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Job%20Role.png'></div>
 Employee who work as Sales Representatives show a significant percentage of Leavers in the submitted dataset.
 
-### Pay/Salary Employee Information
+### Pay/Salary & Job Involvement Information
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Monthly%20Income.png'></div>
 Employee Monthly Income varies from $1009 to $19999.
 
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Percent%20Salary.png'></div>
 Percentage Salary Hikes varies from 11% to 25%.
 
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Job%20Involvement.png'></div>
+Loyal employees with higher salaries and more responsbilities show lower proportion of leavers compared to their counterparts.
