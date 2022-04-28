@@ -35,3 +35,11 @@ A preliminary look at the relationship between Business Travel frequency and Att
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Num%20companies%20worked.png'></div>
 There is a feature for the number of companies the employee has worked at. 0 likely indicates that according to records, the employee has only worked at this company.
 Employees that have already worked at several companies previously (already "bounced" between workplaces) show higher proportion of leavers compared to their counterparts.
+
+### Job Role
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Job%20Role.png'></div>
+Employee who work as Sales Representatives show a significant percentage of Leavers in the submitted dataset.
+
+### Pay/Salary Employee Information
+<div align=center><img width='600' height='400' src = ' '></div>
+
