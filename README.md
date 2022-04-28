@@ -62,4 +62,22 @@ As shown on the chart above, we can see this is an imbalanced class problem. Ind
 Machine learning algorithms typically work best when the number of instances of each classes are roughly equal. I will have to address this target feature imbalance prior to implementing Machine Learning algorithms.
 
 ### Correlation
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/heatmap.png'></div>
+As shown above, "Monthly Rate", "Number of Companies Worked" and "Distance From Home" are positively correlated to Attrition; while "Total Working Years", "Job Level", and "Years In Current Role" are negatively correlated to Attrition.
 
+### EDA Conclusion:
+* The dataset does not feature any missing or erroneous data values, and all features are of the correct data type.
+* The strongest positive correlations with the target features are: Performance Rating, Monthly Rate, Num Companies Worked, Distance From Home.
+* The strongest negative correlations with the target features are: Total Working Years, Job Level, Years In Current Role, and Monthly Income.
+* The dataset is imbalanced with the majoriy of observations describing Currently Active Employees.
+### Other observations:
+* Single employees show the largest proportion of leavers, compared to Married and Divorced counterparts.
+* About 10% of leavers left when they reach their 2-year anniversary at the company.
+* Loyal employees with higher salaries and more responsbilities show lower proportion of leavers compared to their counterparts.
+* People who live further away from their work show higher proportion of leavers compared to their counterparts.
+* People who travel frequently show higher proportion of leavers compared to their counterparts.
+* People who have to work overtime show higher proportion of leavers compared to their counterparts.
+* Employee who work as Sales Representatives show a significant percentage of Leavers in the submitted dataset.
+* Employees that have already worked at several companies previously (already "bounced" between workplaces) show higher proportion of leavers compared to their counterparts.
+
+## 
