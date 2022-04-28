@@ -62,7 +62,7 @@ As shown on the chart above, we can see this is an imbalanced class problem. Ind
 Machine learning algorithms typically work best when the number of instances of each classes are roughly equal. I will have to address this target feature imbalance prior to implementing Machine Learning algorithms.
 
 ### Correlation
-<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/heatmap.png'></div>
+<div align=center><img width='700' height='500' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/heatmap.png'></div>
 As shown above, "Monthly Rate", "Number of Companies Worked" and "Distance From Home" are positively correlated to Attrition; while "Total Working Years", "Job Level", and "Years In Current Role" are negatively correlated to Attrition.
 
 ### EDA Conclusion:
@@ -80,4 +80,13 @@ As shown above, "Monthly Rate", "Number of Companies Worked" and "Distance From 
 * Employee who work as Sales Representatives show a significant percentage of Leavers in the submitted dataset.
 * Employees that have already worked at several companies previously (already "bounced" between workplaces) show higher proportion of leavers compared to their counterparts.
 
-## 
+## ML Models
+The algorithms considered are: Logistic Regression, Random Forest, SVM, KNN, Decision Tree Classifier, Gaussian NB.
+<div align=center><img width='700' height='500' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Algorithm%20ROC%20AUC%20Comparison.png'></div>
+Area under ROC Curve (or AUC for short) is a performance metric for binary classification problems.
+The AUC represents a model’s ability to discriminate between positive and negative classes. An area of 1.0 represents a model that made all predictions perfectly. An area of 0.5 represents a model as good as random.
+Based on our ROC AUC comparison analysis, Logistic Regression and Random Forest show the highest mean AUC scores. I will shortlist these two algorithms for further analysis.
+
+### Logistic Regression
+
+
