@@ -49,3 +49,8 @@ Percentage Salary Hikes varies from 11% to 25%.
 
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Job%20Involvement.png'></div>
 Loyal employees with higher salaries and more responsbilities show lower proportion of leavers compared to their counterparts.
+
+### Years at company
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Years%20At%20Company.png'></div>
+Number of Years at the company varies from 0 to 40 years.
+
