@@ -41,5 +41,7 @@ Employees that have already worked at several companies previously (already "bou
 Employee who work as Sales Representatives show a significant percentage of Leavers in the submitted dataset.
 
 ### Pay/Salary Employee Information
-<div align=center><img width='600' height='400' src = ' '></div>
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Monthly%20Income.png'></div>
+Employee Monthly Income varies from $1009 to $19999.
+Percentage Salary Hikes varies from 11% to 25%.
 
