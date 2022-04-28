@@ -96,6 +96,7 @@ Classification Report:
 
 ### Random Forest
 Confusion Matrix:
+<div align=center><img width='500' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Confusion%20matrix%20-%20Random%20Forest.png'></div>
 
 Classification Report:
 <div align=center><img width='600' height='200' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Classification%20Report2.png'></div>
