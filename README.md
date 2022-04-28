@@ -87,9 +87,14 @@ Area under ROC Curve (or AUC for short) is a performance metric for binary class
 The AUC represents a model’s ability to discriminate between positive and negative classes. An area of 1.0 represents a model that made all predictions perfectly. An area of 0.5 represents a model as good as random.
 Based on our ROC AUC comparison analysis, Logistic Regression and Random Forest show the highest mean AUC scores. I will shortlist these two algorithms for further analysis.
 
-### Evaluation - Logistic Regression
+### Logistic Regression
 Confusion Matrix:
+<div align=center><img width='500' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Confusion%20matrix%20-%20Logistic%20Regression.png'></div>
 
 Classification Report:
 <div align=center><img width='600' height='200' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Classification%20Report1.png'></div>
 
+### Random Forest
+Confusion Matrix:
+
+Classification Report:
