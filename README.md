@@ -57,4 +57,9 @@ Number of Years at the company varies from 0 to 40 years.
 Number of Years in the current role varies from 0 to 18 years. About 10% of leavers left when they reach their 2-year anniversary at the company.
 
 ### Target Variable: Attrition
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Attrition%20Distribution.png'></div>
+As shown on the chart above, we can see this is an imbalanced class problem. Indeed, the percentage of Current Employees in the dataset is 83.9% and the percentage of Ex-employees is: 16.1%
+Machine learning algorithms typically work best when the number of instances of each classes are roughly equal. I will have to address this target feature imbalance prior to implementing Machine Learning algorithms.
+
+### Correlation
 
