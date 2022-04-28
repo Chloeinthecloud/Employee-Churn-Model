@@ -31,3 +31,7 @@ Some employees have overtime commitments. According to the chart, people who hav
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Business%20Travel.png'></div>
 A preliminary look at the relationship between Business Travel frequency and Attrition Status shows that there is a largest normalized proportion of Leavers for employees that travel "frequently". Travel metrics associated with Business Travel status were not disclosed (i.e. how many hours of Travel is considered "Frequent").
 
+### Number of Companies worked:
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Num%20companies%20worked.png'></div>
+There is a feature for the number of companies the employee has worked at. 0 likely indicates that according to records, the employee has only worked at this company.
+Employees that have already worked at several companies previously (already "bounced" between workplaces) show higher proportion of leavers compared to their counterparts.
