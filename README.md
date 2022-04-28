@@ -43,5 +43,7 @@ Employee who work as Sales Representatives show a significant percentage of Leav
 ### Pay/Salary Employee Information
 <div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Monthly%20Income.png'></div>
 Employee Monthly Income varies from $1009 to $19999.
+
+<div align=center><img width='600' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Percent%20Salary.png'></div>
 Percentage Salary Hikes varies from 11% to 25%.
 
