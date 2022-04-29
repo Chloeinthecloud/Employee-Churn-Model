@@ -100,3 +100,8 @@ Confusion Matrix:
 
 Classification Report:
 <div align=center><img width='600' height='200' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Classification%20Report2.png'></div>
+
+Feature Importance:
+
+### ROC Graph:
+<div align=center><img width='700' height='500' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/ROC%20Graph.png'></div>
