@@ -92,16 +92,41 @@ Confusion Matrix:
 <div align=center><img width='500' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Confusion%20matrix%20-%20Logistic%20Regression.png'></div>
 
 Classification Report:
-<div align=center><img width='600' height='200' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Classification%20Report1.png'></div>
+<div align=center><img width='500' height='150' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Classification%20Report1.png'></div>
 
 ### Random Forest
 Confusion Matrix:
 <div align=center><img width='500' height='400' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Confusion%20matrix%20-%20Random%20Forest.png'></div>
 
 Classification Report:
-<div align=center><img width='600' height='200' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Classification%20Report2.png'></div>
+<div align=center><img width='500' height='150' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Classification%20Report2.png'></div>
 
 Feature Importance:
+<div align=center><img width='700' height='600' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/Feature%20Importance.png'></div>
+Random Forest helped us identify the Top 10 most important indicators (ranked in the table).
 
 ### ROC Graph:
 <div align=center><img width='700' height='500' src = 'https://github.com/Chloeinthecloud/Employee-Churn-Model/blob/main/Plots/ROC%20Graph.png'></div>
+AUC - ROC curve is a performance measurement for classification problem at various thresholds settings. ROC is a probability curve and AUC represents degree or measure of separability. It tells how much model is capable of distinguishing between classes. The green line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
+As shown above, the fine-tuned Logistic Regression model showed a higher AUC score compared to the Random Forest Classifier.
+
+## Conclusions:
+### Risk Category
+As the company generates more data on its employees (on New Joiners and recent Leavers) the algorithm can be re-trained using the additional data and theoritically generate more accurate predictions to identify high-risk employees of leaving based on the probabilistic label assigned to each feature variable (i.e. employee) by the algorithm.
+Employees can be assigning a "Risk Category" based on the predicted label such that:
+* Low-risk for employees with label < 0.6
+* Medium-risk for employees with label between 0.6 and 0.8
+* High-risk for employees with label > 0.8
+
+### Strategic Retention Plan
+From the project, we can known the stronger indicators of people leaving include:
+* Monthly Income: people on higher wages are less likely to leave the company. Hence, efforts should be made to gather information on industry benchmarks in the current local market to determine if the company is providing competitive wages.
+* Over Time: people who work overtime are more likelty to leave the company. Hence efforts must be taken to appropriately scope projects upfront with adequate support and manpower so as to reduce the use of overtime.
+* YearsWithCurrManager: A large number of leavers leave 6 months after their Current Managers. By using Line Manager details for each employee, one can determine which Manager have experienced the largest numbers of employees resigning over the past year. Several metrics can be used here to determine whether action should be taken with a Line Manager:
+  * number of employees under managers showing high turnover rates: this would indicate that the organisation's structure may need to be revisit to improve efficiency
+  * number of years the Line Manager has been in a particular position: this may indicate that the employees may need management training or be assigned a mentor (ideally an Executive) in the organisation
+  * patterns in the employees who have resigned: this may indicate recurring patterns in employees leaving in which case action may be taken accordingly.
+* Age: Employees in relatively young age bracket 25-35 are more likely to leave. Hence, efforts should be made to clearly articulate the long-term vision of the company and young employees fit in that vision, as well as provide incentives in the form of clear paths to promotion for instance.
+* DistanceFromHome: Employees who live further from home are more likely to leave the company. Hence, efforts should be made to provide support in the form of company transportation for clusters of employees leaving the same area, or in the form of Transportation Allowance. Initial screening of employees based on their home location is probably not recommended as it would be regarded as a form of discrimination as long as employees make it to work on time every day.
+* TotalWorkingYears: The more experienced employees are less likely to leave. Employees who have between 5-8 years of experience should be identified as potentially having a higher-risk of leaving.
+* YearsAtCompany: Loyal companies are less likely to leave. Employees who hit their two-year anniversary should be identified as potentially having a higher-risk of leaving.
